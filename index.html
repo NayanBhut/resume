@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nayan Bhut - iOS Developer Resume</title>
+<style>
+  :root{
+    --link:#003366;
+    --rule:#003366;
+    --bg:#ffffff;
+    --text:#1a1a1a;
+    --muted:#555;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family:"Times New Roman",Georgia,serif;
+    color:var(--text);
+    background:#f4f4f5;
+    margin:0;
+    padding:24px;
+    line-height:1.4;
+  }
+  .page{
+    max-width:850px;
+    margin:0 auto;
+    background:var(--bg);
+    padding:40px 48px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    border-radius:4px;
+  }
+  header{text-align:center;margin-bottom:8px;}
+  header h1{font-size:30px;margin:0 0 6px;letter-spacing:.5px;}
+  .contact{font-size:13px;}
+  .contact a{color:var(--link);text-decoration:none;margin:0 2px;}
+  .contact .sep{color:#888;margin:0 4px;}
+  section{margin-top:18px;}
+  h2{
+    font-size:18px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    border-bottom:2px solid var(--rule);
+    padding-bottom:3px;
+    margin:0 0 8px;
+  }
+  ul{margin:4px 0 8px 0;padding-left:20px;}
+  li{margin-bottom:3px;}
+  .job{margin-bottom:12px;}
+  .job-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;}
+  .job-head .title{font-weight:bold;font-size:15px;}
+  .job-head .date{font-style:italic;color:var(--muted);font-size:13px;}
+  .skills li b{color:#000;}
+  .skills .group{font-weight:bold;}
+  .project{margin-bottom:14px;}
+  .project-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;}
+  .project-head .name{font-weight:bold;}
+  .project-head a{color:var(--link);text-decoration:none;font-size:13px;}
+  .project-meta{font-style:italic;color:var(--muted);font-size:13px;margin:2px 0 4px;}
+  .tech{font-size:13px;color:#333;}
+  .edu{display:flex;justify-content:space-between;flex-wrap:wrap;}
+  .edu .year{color:var(--muted);}
+  .edu .degree{font-weight:bold;}
+  .edu .school{display:block;color:var(--muted);font-size:13px;}
+  .sub-h{font-weight:bold;margin:10px 0 2px;}
+  a:hover{text-decoration:underline;}
+  .print-bar{
+    max-width:850px;margin:0 auto 16px;text-align:right;
+  }
+  .print-bar button{
+    background:var(--link);color:#fff;border:none;padding:8px 14px;
+    border-radius:4px;cursor:pointer;font-size:13px;font-family:inherit;
+  }
+  @media print{
+    body{background:#fff;padding:0;}
+    .page{box-shadow:none;padding:0;max-width:none;}
+    .print-bar{display:none;}
+  }
+</style>
+</head>
+<body>
+<div class="print-bar"><button onclick="window.print()">Print / Save as PDF</button></div>
+<div class="page">
+
+<header>
+  <h1>Nayan Bhut</h1>
+  <div class="contact">
+    <a href="mailto:nayanbhut@live.com">nayanbhut@live.com</a><span class="sep">|</span>
+    <a href="mailto:nayanbhut989@gmail.com">nayanbhut989@gmail.com</a><span class="sep">|</span>
+    <a href="tel:+919624261239">+91 962-426-1239</a><span class="sep">|</span>
+    <a href="https://www.linkedin.com/in/nayan-bhut-4318b199">LinkedIn</a><span class="sep">|</span>
+    <a href="https://github.com/NayanBhut">GitHub</a><span class="sep">|</span>
+    <a href="https://nayanbhut.github.io/resume/">Online Resume</a>
+  </div>
+</header>
+
+<section>
+  <h2>Professional Summary</h2>
+  <p>Senior iOS Engineer with 6.5+ years of experience developing high-performance mobile applications for major retail brands including Nike, Under Armour, and Sun &amp; Sand Sports. Expertise in Swift, Objective-C, and modern iOS architecture patterns. Proven track record of reducing crash rates by 30%, optimizing app performance, and mentoring development teams to deliver user-focused solutions in Agile environments.</p>
+</section>
+
+<section class="skills">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><span class="group">Languages:</span> Swift, Objective-C, Shell Script, SQL, JavaScript</li>
+    <li><span class="group">iOS Frameworks:</span> UIKit, AppKit, SwiftUI, Catalyst, AVFoundation, CloudKit, CoreData, CoreLocation, Background Tasks, APNS, PushKit, Combine</li>
+    <li><span class="group">Architecture:</span> MVC, MVVM, VIPER, Clean Swift</li>
+    <li><span class="group">UI:</span> Auto Layout, SnapKit, XIB, Storyboards, Programmatic UI, RTL Support, Responsive Design</li>
+    <li><span class="group">Reactive:</span> RxSwift, Combine</li>
+    <li><span class="group">Testing &amp; Quality:</span> XCTest, XCUITest, Unit Testing, UI Testing, Code Coverage</li>
+    <li><span class="group">Databases:</span> CoreData, SQLite, PostgreSQL, Keychain Services</li>
+    <li><span class="group">Dependency Mgmt:</span> CocoaPods, Swift Package Manager (SPM)</li>
+    <li><span class="group">Third-Party:</span> Firebase (Crashlytics, Analytics, Auth, Remote Config, A/B Testing), GA4, Facebook SDK, Branch, MoEngage, Vapor, Perfect Swift, React Native</li>
+    <li><span class="group">Authentication:</span> OAuth 2.0, JWT, Session Management, SSO, SAML</li>
+    <li><span class="group">Networking:</span> RESTful APIs, GraphQL, WebSockets, gRPC, URLSession, Alamofire, JSON:API Specification</li>
+    <li><span class="group">CI/CD &amp; DevOps:</span> fastlane, Bitrise, Azure Pipelines, GitHub Actions, Jenkins, Firebase Distribution, TestFlight, App Store Connect (full release cycle)</li>
+    <li><span class="group">Dev Tools:</span> Xcode, Instruments (Time Profiler, Leaks), LLDB, Memory Graph Debugger, Charles Proxy, Postman, Swagger, Git</li>
+    <li><span class="group">Design:</span> Figma, Sketch, InVision, Photoshop, Canva, Human Interface Guidelines</li>
+    <li><span class="group">Infrastructure:</span> Docker, Docker Compose, AWS EC2, Unix/Linux Administration</li>
+    <li><span class="group">Methodologies:</span> Agile/Scrum, TDD, Code Review, Pair Programming, Gitflow</li>
+    <li><span class="group">Spoken:</span> English (Fluent), Hindi (Fluent), Gujarati (Native)</li>
+    <li><span class="group">Automation:</span> Power Automate, Google Apps Script, macOS LaunchAgents, Shortcut App, Postman</li>
+    <li><span class="group">AI Tools:</span> Ollama (local LLM), Claude, Mistral, Kimi K2.6, Grok, Cursor, Copilot, Kiro, MCP (Xcode, Azure, Figma)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+
+  <div class="job">
+    <div class="job-head"><span class="title">Senior Software Engineer, Brainvire Infotech Inc.</span><span class="date">May 2021 – Present</span></div>
+    <ul>
+      <li>Led end-to-end development of iOS applications for Nike ME, Under Armour ME, and Sun &amp; Sand Sports, serving thousands of active users.</li>
+      <li>Reduced app crash rates by 30% through code optimization, proactive bug fixing, and robust error handling.</li>
+      <li>Architected scalable features: personalized recommendations, rewards systems, secure checkout flows, and real-time inventory management.</li>
+      <li>Optimized API integrations and caching strategies, improving responsiveness by 40% and reducing network calls by 25%.</li>
+      <li>Mentored 5+ junior developers on iOS best practices, code quality, and modern architecture (MVVM, VIPER).</li>
+      <li>Implemented CI/CD with fastlane and Bitrise, reducing deployment time by 50%.</li>
+      <li>Collaborated with cross-functional teams (Product, Design, QA, Backend) in Agile sprints.</li>
+      <li>Established code review processes and standards, reducing technical debt by 35%.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head"><span class="title">Software Engineer, Tristate Technology LLP</span><span class="date">June 2018 – May 2021</span></div>
+    <ul>
+      <li>Developed modular iOS apps using Swift, UIKit, and modern architecture patterns.</li>
+      <li>Integrated RESTful APIs with error handling and offline support for seamless UX across network conditions.</li>
+      <li>Implemented advanced multithreading with GCD and Operation Queues, improving responsiveness by 45%.</li>
+      <li>Optimized memory management with Instruments, reducing footprint by 20%.</li>
+      <li>Collaborated with UX/UI designers for pixel-perfect interfaces and smooth animations.</li>
+      <li>Participated in code reviews and pair programming.</li>
+      <li>Reduced crash rates by 20% via testing, debugging, and defensive programming.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Key Projects</h2>
+
+  <div class="project">
+    <div class="project-head">
+      <span class="name">Under Armour ME — Lead iOS Developer</span>
+      <a href="https://apps.apple.com/us/app/under-armour-me-shop-online/id1591394964">View on App Store</a>
+    </div>
+    <div class="project-meta">July 2022 – Present | Team Size: 3 developers</div>
+    <ul>
+      <li>Implemented personalized recommendations, QR scanning, and location-based in-store experiences.</li>
+      <li>Built analytics tracking system capturing 20+ conversion events using Branch, MoEngage, and GA4.</li>
+      <li>Integrated Tabby/Tamara BNPL gateways and Salesforce customer support chat.</li>
+      <li>Enabled CMS-driven banner updates, eliminating app store submissions for marketing promotions.</li>
+      <li>Delivered 20+ production releases with zero critical post-release bugs.</li>
+      <li class="tech"><b>Technologies:</b> Swift, MVVM, Combine, Branch, MoEngage, Salesforce SDK</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="project-head">
+      <span class="name">Nike ME App — Sr. iOS Developer</span>
+      <a href="https://apps.apple.com/us/app/nike-sports-wear-sneakers/id6444790147">View on App Store</a>
+    </div>
+    <div class="project-meta">April 2024 – Present | Team Size: 6 developers</div>
+    <ul>
+      <li>Architected modular app with MVVM and SwiftUI-based product catalog and checkout flows.</li>
+      <li>Reduced crash rate from 2.1% to 0.3% through comprehensive error handling and Time Profiler optimization.</li>
+      <li>Achieved 60 FPS scrolling for 1000+ product catalog by eliminating main-thread blocking.</li>
+      <li>Integrated Apple Pay, regional payment methods, and bilingual support (Arabic/English).</li>
+      <li class="tech"><b>Technologies:</b> Swift, SwiftUI, MVVM, Apple Pay, Firebase, Time Profiler</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="project-head">
+      <span class="name">Sun and Sand Sports — Senior iOS Developer</span>
+      <a href="https://apps.apple.com/us/app/sun-sand-sports-shop-online/id1163601891">View on App Store</a>
+    </div>
+    <div class="project-meta">Sept 2021 – Present | Team Size: 6 developers</div>
+    <ul>
+      <li>Designed multi-brand e-commerce platform with custom filtering handling 10K+ SKUs with instant results.</li>
+      <li>Optimized image loading with Kingfisher caching, significantly reducing bandwidth usage.</li>
+      <li>Redesigned homepage using JSON:API standard for flexible CMS-driven content management.</li>
+      <li>Integrated Knet and regional payment gateways; added KML-based Google Maps delivery areas.</li>
+      <li class="tech"><b>Technologies:</b> Swift, Clean Swift, UIKit, JSON:API, Kingfisher, Google Maps, Memory Graph Debugger</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="project-head"><span class="name">Additional Projects</span></div>
+    <ul>
+      <li><b><a href="https://apps.apple.com/in/app/medznat/id1111506408">Medznat</a>:</b> Medical knowledge platform with video playback (YouTube/Vimeo) and bilingual support (English/Russian).</li>
+      <li><b><a href="https://apps.apple.com/us/app/trophy-cloud/id1399027300">Trophy Cloud</a>:</b> Automotive event platform with real-time Socket chat and participant voting system.</li>
+      <li><b><a href="https://itunes.apple.com/jp/app/tflpodcasts/id1466584200?l=en&mt=8">TFL Podcasts</a>:</b> Audio streaming app with AVKit, offline playback, and SQLite for player state management.</li>
+      <li><b><a href="https://apps.apple.com/au/app/anco-turf/id1477293063">Anco Turf</a>:</b> E-commerce platform with MapKit delivery tracking and product visualization tools.</li>
+      <li><b>Strawl App Backend:</b> RESTful API backend with Perfect Swift on AWS, JWT auth, DB schema design, and CI/CD pipeline setup.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="edu">
+  <h2>Education</h2>
+  <div>
+    <span class="degree">Bachelor of Engineering in Information Technology</span>
+    <span class="school">Government Engineering College, Modasa (GTU) — Gujarat, India</span>
+  </div>
+  <div class="year">2014 – 2018</div>
+</section>
+
+<section>
+  <h2>Certifications &amp; Open Source</h2>
+  <div class="sub-h">Certifications</div>
+  <ul>
+    <li><a href="https://www.udemy.com/certificate/UC-1d06e26a-430c-4263-863d-2c0f4ac2eb5e/">Learn GitHub Actions for CI/CD DevOps Pipelines — Udemy</a></li>
+    <li><a href="https://www.udemy.com/certificate/UC-708c1b5f-850d-42b3-8ce5-c5355e6a3534/">AI For Developers With GitHub Copilot, Cursor AI &amp; ChatGPT — Udemy</a></li>
+    <li><a href="https://www.udemy.com/certificate/UC-375188a5-7e52-4bac-aa15-5c4c297fe815/">AWS: Block Storage, Object Storage, EBS, Snapshots, AMIs, Image Builder, EFS — Udemy</a></li>
+    <li><a href="https://www.theforage.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_6961f8de4b3bff447ae0c7a3_1768053858232_completion_certificate.pdf">JPMorganChase — Software Engineering Job Simulation</a></li>
+  </ul>
+
+  <div class="sub-h">Open Source Projects</div>
+  <ul>
+    <li><b><a href="https://github.com/NayanBhut/Azure-PipeLine-Mobile">Azure Pipeline Mobile</a> (React Native):</b> Cross-platform app for managing Azure Pipelines with build triggering, artifact downloads, and GitHub Actions integration.</li>
+    <li><b><a href="https://github.com/NayanBhut/Bitrise-Mobile">Bitrise Pipeline Mobile</a> (React Native):</b> Multi-workspace Bitrise management app with pipeline triggering and real-time build status.</li>
+    <li><b><a href="https://github.com/NayanBhut/TestFlightReleaseNotes">TestFlight Release Notes</a> (SwiftUI):</b> App Store Connect API integration for managing TestFlight notes with JSON:API parsing and multi-team support.</li>
+  </ul>
+</section>
+
+</div>
+</body>
+</html>
